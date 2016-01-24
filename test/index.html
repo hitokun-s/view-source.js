@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>View-Source.js Test Page</title>
+
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../view-source.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="vs">
+        <p class="title">What is view-source.js?</p>
+        <div>
+            <p>You must understand by clicking 'view source' button...</p>
+            <p id="question"></p>
+        </div>
+    </div>
+    <script class="vs" type="text/javascript">
+        // set onHandler for view source on
+        vs.on(function(){
+            $("#question").text("Can you see the source?");
+        });
+    </script>
+    <style class="vs">
+        .title{
+            color:green;
+            font-size: 1.5em;
+        }
+        #question{
+            color:red;
+        }
+        body{
+            padding: 10px;;
+        }
+    </style>
+</div>
+</body>
+</html>

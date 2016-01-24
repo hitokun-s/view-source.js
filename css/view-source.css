@@ -1,0 +1,27 @@
+/* workaround for Rainbow about the conflict with bootstrap.css */
+pre .support.close {
+    float:none;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    text-shadow: none;
+    opacity: 1;
+}
+
+.vs-out{
+    display:none;
+}
+.vs-type{
+    background-color: black;
+    color: white;
+    display: inline;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 4px;
+}
+#btn-vs{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}

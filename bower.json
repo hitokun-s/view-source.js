@@ -1,0 +1,33 @@
+{
+  "name": "view-source",
+  "version": "0.0.1",
+  "authors": [
+    "hitokun-s <jgpuauno@gmail.com>"
+  ],
+  "description": "add \"view source\" functionality(or button) to your website",
+  "main": "view-source.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "view",
+    "show",
+    "see",
+    "source"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hitokun-s/view-source.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~1.8.2"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
