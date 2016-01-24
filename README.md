@@ -14,6 +14,7 @@ JQuery
 
 **Just add one line** to head section in html,  
 to load view-source.js from your bower modules, like this:  
+(! You must load JQuery ahead !)
 
     <script type="text/javascript" src="../bower_component/sview-source/view-source.js"></script>
     
