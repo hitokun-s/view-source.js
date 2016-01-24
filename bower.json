@@ -4,7 +4,7 @@
   "authors": [
     "hitokun-s <jgpuauno@gmail.com>"
   ],
-  "description": "add \"view source\" functionality(or button) to your website",
+  "description": "add \"view source\" button automatically to your website, showing highlighted source code for html,js,css",
   "main": "view-source.js",
   "moduleType": [
     "globals"
