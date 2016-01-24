@@ -42,7 +42,8 @@ and add 'vs' class to the source code you want to show, like this:
 
 ##Example
 
-Please git clone this repository, and open /text/index.html by browser.
+Example site is [here](http://hitokun-s.github.io/tool/view-source.html).  
+Or you can git clone this repository, and open /text/index.html by browser.
     
 ![Capture](img/view-source.png "Capture")    
 
