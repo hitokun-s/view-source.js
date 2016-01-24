@@ -12,7 +12,8 @@ JQuery
     
 ##Usage
 
-Load view-source.js from your bower modules, like this:  
+**Just add one line** to head section in html,  
+to load view-source.js from your bower modules, like this:  
 
     <script type="text/javascript" src="../bower_component/sview-source/view-source.js"></script>
     
@@ -42,5 +43,5 @@ and add 'vs' class to the source code you want to show, like this:
 
 Please git clone this repository, and open /text/index.html by browser.
     
-    
+![Capture](img/view-source.png "Capture")    
 
